@@ -7,7 +7,7 @@ const fs = require('node:fs'); // Using fs from 'node:fs'
 const { ensureDataDirAndFile } = require('./services/dataService'); // Import helper
 
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 
 // Middleware
 // Configure CORS - for development, allow all. For production, restrict to your frontend domain.
