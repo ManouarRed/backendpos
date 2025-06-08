@@ -1,0 +1,278 @@
+[
+  {
+    "id": "prod_2ee8db12-24db-4692-ad08-eea3b91e8003",
+    "title": "rabbit",
+    "code": "40364",
+    "price": 222,
+    "categoryId": "cat_electronics_seed",
+    "manufacturerId": "man_techcorp_seed",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 50
+      },
+      {
+        "size": "M",
+        "stock": 50
+      },
+      {
+        "size": "L",
+        "stock": 50
+      },
+      {
+        "size": "XL",
+        "stock": 50
+      },
+      {
+        "size": "XXL",
+        "stock": 50
+      },
+      {
+        "size": "3XL",
+        "stock": 50
+      }
+    ],
+    "image": "https://doublered.sk/16537-large_default/boots-wire-bw-edition.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_6f2f16a4-4a2a-465b-b269-cfa0f43b1a0e",
+    "title": "T-shirt TRALALERO TRALALA Black",
+    "code": "DR20582",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 22
+      },
+      {
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "size": "L",
+        "stock": 22
+      },
+      {
+        "size": "XL",
+        "stock": 54
+      },
+      {
+        "size": "XXL",
+        "stock": 67
+      },
+      {
+        "size": "3XL",
+        "stock": 76
+      },
+      {
+        "size": "4XL",
+        "stock": 54
+      }
+    ],
+    "image": "https://doublered.sk/19906-home_default/t-shirt-tralalero-tralala-black.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_2d832d9a-b12f-4ca9-a6eb-78d64c470255",
+    "title": "KID T-shirt TRALALERO TRALALA Blue",
+    "code": "DR1551",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "122",
+        "stock": 50
+      },
+      {
+        "size": "134",
+        "stock": 50
+      },
+      {
+        "size": "146",
+        "stock": 50
+      },
+      {
+        "size": "110",
+        "stock": 50
+      },
+      {
+        "size": "158",
+        "stock": 50
+      }
+    ],
+    "image": "https://doublered.sk/19903-home_default/kid-t-shirt-tralalero-tralala-blue.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_f2a281af-8206-4dad-aabe-21ead3bc9b66",
+    "title": "T-shirt TRALALERO TRALALA White",
+    "code": "DR20584",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 22
+      },
+      {
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "size": "L",
+        "stock": 22
+      },
+      {
+        "size": "XL",
+        "stock": 54
+      },
+      {
+        "size": "XXL",
+        "stock": 67
+      },
+      {
+        "size": "3XL",
+        "stock": 76
+      },
+      {
+        "size": "4XL",
+        "stock": 54
+      }
+    ],
+    "image": "https://doublered.sk/19902-home_default/t-shirt-tralalero-tralala-white.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_a5a7a10d-8a7c-416d-84ad-345684a0df49",
+    "title": "T-shirt ITALIAN BRAINROT White",
+    "code": "DR1556",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 22
+      },
+      {
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "size": "L",
+        "stock": 22
+      },
+      {
+        "size": "XL",
+        "stock": 54
+      },
+      {
+        "size": "XXL",
+        "stock": 67
+      },
+      {
+        "size": "3XL",
+        "stock": 76
+      },
+      {
+        "size": "4XL",
+        "stock": 54
+      }
+    ],
+    "image": "https://doublered.sk/19910-home_default/t-shirt-italian-brainrot-white.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_cc5f58a8-97cd-4663-a40e-90da0fa320ce",
+    "title": "T-shirt TRALALERO TRALALA White",
+    "code": "DR20589",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "S",
+        "stock": 22
+      },
+      {
+        "size": "M",
+        "stock": 11
+      },
+      {
+        "size": "L",
+        "stock": 22
+      },
+      {
+        "size": "XL",
+        "stock": 54
+      },
+      {
+        "size": "XXL",
+        "stock": 67
+      },
+      {
+        "size": "3XL",
+        "stock": 76
+      },
+      {
+        "size": "4XL",
+        "stock": 54
+      }
+    ],
+    "image": "https://doublered.sk/19918-home_default/t-shirt-tralalero-tralala-white.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_e5c90fef-c51d-486d-9e45-71ccaaf0ef79",
+    "title": "Metal Poster TRALALERO TRALALA",
+    "code": "DRK0084",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "One Size",
+        "stock": 33
+      }
+    ],
+    "image": "https://doublered.sk/19952-home_default/metal-poster-tralalero-tralala.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_d8a0655b-3eff-493e-b293-f589518eb110",
+    "title": "KID Cap TRALALERO TRALALA Blue",
+    "code": "DR70338",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "One Size",
+        "stock": 22
+      }
+    ],
+    "image": "https://doublered.sk/19979-home_default/kid-cap-tralalero-tralala-blue.jpg",
+    "isVisible": true
+  },
+  {
+    "id": "prod_8f73c769-2904-476d-9b6b-9719e847651e",
+    "title": "Magnetka TRALALERO TRALALA",
+    "code": "DRK0091",
+    "price": 14.95,
+    "categoryId": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "manufacturerId": "man_13fb0ef9-4872-4ea6-85cc-13ad32081b40",
+    "sizes": [
+      {
+        "size": "One Size",
+        "stock": 44
+      }
+    ],
+    "image": "https://doublered.sk/19985-home_default/magnetka-tralalero-tralala.jpg",
+    "isVisible": true
+  }
+]

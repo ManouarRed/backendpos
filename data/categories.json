@@ -1,0 +1,38 @@
+[
+  {
+    "id": "cat_electronics_seed",
+    "name": "Electronics"
+  },
+  {
+    "id": "cat_clothing_seed",
+    "name": "Clothing"
+  },
+  {
+    "id": "cat_books_seed",
+    "name": "Books"
+  },
+  {
+    "id": "cat_footwear_seed",
+    "name": "Footwear"
+  },
+  {
+    "id": "cat_accessories_seed",
+    "name": "Accessories"
+  },
+  {
+    "id": "cat_home_garden_seed",
+    "name": "Home & Garden"
+  },
+  {
+    "id": "cat_toys_games_seed",
+    "name": "Toys & Games"
+  },
+  {
+    "id": "cat_uncategorized",
+    "name": "Uncategorized"
+  },
+  {
+    "id": "cat_700bfd97-dcaa-48bf-bfb9-fb7ebc4b7a79",
+    "name": "T-Shirts"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "user_admin_01",
+    "username": "admin",
+    "hashedPassword": "$2a$12$P9zYEtG6X1bl7p2QfWFsjeV3L3AOAIa9E6TeEC96vqV0yqd3VZi7y",
+    "role": "admin"
+  },
+  {
+    "id": "user_employee_01",
+    "username": "employee",
+    "hashedPassword": "$2a$12$P9zYEtG6X1bl7p2QfWFsjeV3L3AOAIa9E6TeEC96vqV0yqd3VZi7y",
+    "role": "employee"
+  },
+  {
+    "id": "user_aa62d2b8-34c2-4c96-abf2-7fbfd99b9fe3",
+    "username": "Martin",
+    "hashedPassword": "$2a$10$SZ.F7wl1nPsIYqJD2kfoXODuW0NRJoFV4h97TLqtdRanCeTPq0WN2",
+    "role": "admin"
+  }
+]
