@@ -2,7 +2,7 @@
 
 echo "🚀 Deploying backend to https://backendpos.doubleredcars.sk"
 
-cd ~/backendpos.doubleredcars.sk || {
+cd /var/www15/p49906/doubleredcars.sk/sub/backendpos || {
   echo "❌ Could not enter app directory"; exit 1;
 }
 
