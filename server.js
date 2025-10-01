@@ -115,21 +115,15 @@ app.use((err, req, res, next) => {
 });
 
 
-const https = require('https');
-const sslKeyPath = process.env.SSL_KEY_PATH || '/path/to/privkey.pem';
-const sslCertPath = process.env.SSL_CERT_PATH || '/path/to/fullchain.pem';
+
 
 const startServer = async () => {
   try {
     await initializeDatabaseSchema();
     if (process.env.NODE_ENV === 'production') {
-      // HTTPS server for production
-      const sslOptions = {
-        key: fs.readFileSync(sslKeyPath),
-        cert: fs.readFileSync(sslCertPath)
-      };
-      https.createServer(sslOptions, app).listen(443, () => {
-        console.log('Backend server listening on https://backendpos.manouar.eu:443');
+      // HTTP server for production (port 80)
+      app.listen(80, () => {
+        console.log('Backend server listening on http://backendpos.manouar.eu:80');
         console.log('Environment: production');
         if (corsOrigin) {
           console.log(`CORS enabled for origin: ${corsOrigin}`);
