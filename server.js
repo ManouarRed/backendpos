@@ -114,27 +114,43 @@ app.use((err, req, res, next) => {
   res.status(statusCode).json({ message });
 });
 
+
+const https = require('https');
+const sslKeyPath = process.env.SSL_KEY_PATH || '/path/to/privkey.pem';
+const sslCertPath = process.env.SSL_CERT_PATH || '/path/to/fullchain.pem';
+
 const startServer = async () => {
   try {
     await initializeDatabaseSchema();
-    app.listen(PORT, () => {
-      const prodUrl = process.env.NODE_ENV === 'production' ? `https://backendpos.manouar.eu:${PORT}` : `http://192.168.3.192:${PORT}`;
-      console.log(`Backend server listening on ${prodUrl}`);
-      console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
-      if (corsOrigin) {
-        console.log(`CORS enabled for origin: ${corsOrigin}`);
-        if (process.env.NODE_ENV === 'production' && corsOrigin === '*') {
+    if (process.env.NODE_ENV === 'production') {
+      // HTTPS server for production
+      const sslOptions = {
+        key: fs.readFileSync(sslKeyPath),
+        cert: fs.readFileSync(sslCertPath)
+      };
+      https.createServer(sslOptions, app).listen(443, () => {
+        console.log('Backend server listening on https://backendpos.manouar.eu:443');
+        console.log('Environment: production');
+        if (corsOrigin) {
+          console.log(`CORS enabled for origin: ${corsOrigin}`);
+          if (corsOrigin === '*') {
             console.warn("SECURITY WARNING: CORS_ORIGIN is set to '*' in a production environment. This is insecure.");
-        }
-      } else if (process.env.NODE_ENV === 'production') {
+          }
+        } else {
           console.error("CRITICAL SECURITY WARNING: CORS_ORIGIN is not set in production.");
-      } else {
-           console.warn(`CORS enabled for all origins ('*') by default in development.`);
-      }
-      if (process.env.NODE_ENV === 'production') {
-        console.log(`Accepting requests from frontend: https://pos.manouar.eu`);
-      }
-    });
+        }
+        console.log('Accepting requests from frontend: https://pos.manouar.eu');
+      });
+    } else {
+      // HTTP server for development
+      app.listen(PORT, () => {
+        console.log(`Backend server listening on http://localhost:${PORT}`);
+        console.log(`Environment: ${process.env.NODE_ENV || 'development'}`);
+        if (corsOrigin) {
+          console.log(`CORS enabled for origin: ${corsOrigin}`);
+        }
+      });
+    }
   } catch (error) {
     console.error("Failed to start server due to database initialization failure:", error);
     process.exit(1);
